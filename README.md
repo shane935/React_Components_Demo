@@ -1,2 +1,4 @@
-React_Components_Demo
+React Components Demo
 =====================
+
+Includes Grid
