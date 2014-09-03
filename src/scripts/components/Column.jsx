@@ -9,7 +9,7 @@ require('../../styles/Column.css');
 
 var Column = React.createClass({
 	render: function(){
-		var classes = "small-" + this.props.col + " columns test";
+		var classes = "small-" + this.props.width + " columns test";
 		if (this.props.last) {
 			classes += " end";
 		};
