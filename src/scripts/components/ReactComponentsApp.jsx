@@ -13,8 +13,8 @@ var ReactTransitionGroup = React.addons.TransitionGroup;
 // CSS
 require('../../../bower_components/foundation/css/foundation.css');
 
-var GridContainer = require('./GridContainer.jsx');
+var ParentControler = require('./ParentControler.jsx');
 var imageURL = require('../../images/yeoman.png');
 
-React.renderComponent(<GridContainer />, document.getElementById('content')); // jshint ignore:line
+React.renderComponent(<ParentControler />, document.getElementById('content')); // jshint ignore:line
 

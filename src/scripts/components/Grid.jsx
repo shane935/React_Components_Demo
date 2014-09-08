@@ -28,7 +28,6 @@ var Grid = React.createClass({
   			default:
   				console.error("Cols needs to be a factor of 12");
   		}
-
   		var columns = this.props.children.map(function(colContent, index, array){
   			var lastCol = array.length - 1 === index ? true : false;
 
